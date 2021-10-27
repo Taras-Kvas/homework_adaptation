@@ -1,0 +1,114 @@
+@media screen and (max-width: 600px) {
+    .soc-icon {
+        display: none;
+    }
+    .header__logo {
+        width: 80px;
+    }
+    .nav {
+        display: none;
+    }
+    .burger {
+        display: flex;
+    }
+    .header__title {
+        font-size: 25px;
+    }
+    .header__text {
+        font-size: 15px;
+    }
+    .header__main button {
+        width: 200px;
+        height: 25px;
+    }
+    .products__title {
+        font-size: 15px;
+    }
+    .product__item_imag {
+        height: 90px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .about__grid {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about__card {
+        margin-bottom: 15px;
+    }
+    .about__name {
+        font-size: 13px;
+    }
+    .about__description {
+        font-size: 12px;
+    }
+    .main__content {
+        flex-wrap: wrap;
+    }
+    .title__goods {
+        font-size: 15px;
+        margin: 0;
+    }
+    .goods__left_up {
+        width: 100px;
+    }
+    .item__left, .item__middle, .item__right {
+        height: 60px;
+        width: 150px;
+    }
+    .text__item {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .good__left_up {
+        margin-top: -35px;
+        width: 285px;
+    }
+    .lower {
+        width: 225px;
+    }
+    .lower button {
+        height: 28px;
+    }
+    .good__left_low {
+        width: 285px;
+    }
+    .good__middle_up {
+        width: 285px;
+    }
+    .good__middle_low, .good__right_up, .good__right_low {
+        display: none;
+    }
+    .contact__card {
+        font-size: 15px;
+    }
+    .item__contact_left button, .item__contact_right button {
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+    }
+    .footer {
+        height: 100px;
+    }
+    .soc-networks {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+        column-gap: 15px;
+    }
+    .network {
+        height: 15px;
+        width: 15px;
+        border-radius: 5px;
+    }
+    .underline {
+        display: flex;
+        justify-content: flex-end;
+        margin: 15px 25px;
+    }
+    .line {
+        width: 50px;
+    }
+}
